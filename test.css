@@ -7,3 +7,20 @@
   color: aqua;
 
 }
+.container{
+  display: flex;
+}
+
+.box{
+  padding: 20px;
+  background-color: red;
+  width: 120px;
+}
+
+.box1{
+  background-color: green;
+}
+
+.box2{
+  background-color: blue;
+}
