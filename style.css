@@ -34,10 +34,9 @@
   height: 100vh;
   align-items: center;
   border: 2px, solid, grey;
-  /* background-image: url("images/background.png"),
-    linear-gradient(45deg, #0000004c, #000); */
-  background-color: #0093e9;
-  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  background-image: url("images/background.png"),
+    linear-gradient(45deg, #000, #0000004c);
+    color: white
 }
 
 .banner-img {
@@ -45,6 +44,7 @@
 }
 
 .title {
+  padding-top: 50px;
   font-size: 50px;
   font-weight: bold;
 }
@@ -60,14 +60,98 @@
   border-radius: 20px;
   box-shadow: 1px 2px rgb(159, 253, 242);
   background-color: rgb(126, 228, 182);
-  color: rgb(255, 20, 145);
+  color: hwb(290 9% 5% / 0.999);
   font-weight: bold;
-  
 }
 
 .btn:hover {
   background-color: black;
   transition: ease-in;
   width: 125px;
+}
+
+.about-text{
+  margin: 30px 0px;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+
+.about-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  /* padding: 20px; */
+}
+
+.about-info, h1{
+  padding: 20px 0px;
+}
+.about-info, p{
+  padding: 8px 0px;
+  font-size: 18px;;
+}
+
+.box{
+  width: 230px;
+  height: 310px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 15px grey;
+  background-color: black;
+  text-align: center;
+  padding: 15px;
+  color: wheat;
+}
+
+.icon{
+  width: 70px;
+}
+
+.box-btn{
+  /* background-color: gray; */
+  color: white;
+  font-weight: bolder;
+}
+
+.serv{
+  background-image: url("images/background.png"),
+  linear-gradient(45deg, #000, #0000004c);
+}
+
+.service-container{
+  display: flex;
+  justify-content: space-around;
   
+  padding-bottom: 40px;
+ 
+}
+
+.footer-container{
+  /* background-color: black; */
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #000;
+  color: white;
+  padding: 100px;
+  height: 300px;
+  list-style: none;
+}
+
+.footer-text{
+  padding-left: 20px;
+}
+
+.Support li{
+  padding-top: 10px;
+}
+hr{
+  color: white;
+  width: 200px;
+}
+
+.last{
+  background-color: red;
+  color: white;
 }
